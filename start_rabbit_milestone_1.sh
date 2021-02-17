@@ -1,3 +1,4 @@
+//OLD SCRIPT OF RABBITMQ
 #!/bin/bash
 serv=rabbitmq-server
 sstat=$(pidof $serv | wc -l )
