@@ -1,13 +1,14 @@
+
 #!/bin/bash
-STATUS="$(systemctl is-active rabbitmq-server.service)"
-serv=rabbitmq-server
+STATUS="$(systemctl is-active apache2.service)"
+serv=Apache
 
 if [ "${STATUS}" = "active" ]; then
     echo "$serv is running....."
 else 
     echo " Service not running.... and will start up shortly"
-    systemctl start $serv
+    systemctl start apache2
     echo "Checking status..."
-    systemctl status $serv 
+    systemctl status apache2
     exit 1  
 fi

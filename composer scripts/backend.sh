@@ -1,3 +1,4 @@
+
 #!/bin/bash
 STATUS="$(systemctl is-active php7.4-fpm)"
 serv=php
