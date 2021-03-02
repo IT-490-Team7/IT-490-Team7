@@ -1,3 +1,4 @@
+
 #!/bin/bash
 serv=mysql
 sstat=$(pidof $serv | wc -l )
