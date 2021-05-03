@@ -13,22 +13,18 @@
             <i class="fas fa-user"></i>
         </label>
         <input type="text" id="name" name="name" placeholder="Name"/>
-
         <label for="email">
             <i class="fas fa-user"></i>
         </label>
         <input type="email" id="email" name="email" placeholder="Email"/>
-
         <label for="password">
             <i class="fas fa-user"></i>
         </label>
         <input type="password" id="password" name="password" placeholder="Password"/>
-
         <label for="cpassword">
             <i class="fas fa-user"></i>
         </label>
         <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password"/>
-
         <input class="submit" type="submit" name="register" value="Register"/>
         <button type="submit"><a href="login.html">Login</a></button>
     </form>
